@@ -1,0 +1,163 @@
+{
+    "q0": {
+        "text": "Please enter your email address:",
+        "type": "text",
+        "options": [],
+        "next": {"*": "q1"}
+    },
+    "q1": {
+        "text": "Do you currently use any automation tools in your workflows?",
+        "type": "single_choice",
+        "options": ["yes", "no"],
+        "next": {"yes": "q2", "no": "q3"}
+    },
+    "q2": {
+        "text": "Which of the following automation categories do you use?",
+        "type": "multiple_choice",
+        "options": [
+            "Workflow Automation",
+            "Monitoring/Alerting", 
+            "CI/CD",
+            "Infrastructure as Code",
+            "Cloud Automation",
+            "Device Management",
+            "RPA",
+            "Scripting",
+            "Others"
+        ],
+        "next": {
+            "CI/CD": "q9",
+            "*": "q8"
+        }
+    },
+    "q3": {
+        "text": "Would you like to explore automation solutions?",
+        "type": "single_choice",
+        "options": ["yes", "no"],
+        "next": {"yes": "q5", "no": "end"}
+    },
+    "q5": {
+        "text": "Which productivity suite do you primarily use?",
+        "type": "single_choice",
+        "options": ["Microsoft 365", "Google Workspace", "Others"],
+        "next": {"*": "q6"}
+    },
+    "q6": {
+        "text": "Do you use any device management solutions?",
+        "type": "single_choice",
+        "options": ["yes", "no"],
+        "next": {"yes": "q7", "no": "q4"}
+    },
+    "q7": {
+        "text": "Which device management solution do you use?",
+        "type": "single_choice",
+        "options": ["Microsoft Intune", "Datto", "Atera", "Others"],
+        "next": {"*": "q4"}
+    },
+    "q8": {
+        "text": "Which specific automation tools are you currently using?",
+        "type": "multiple_choice",
+        "options": [
+            "Rewst", "n8n", "Zapier", "Power Automate", "Jenkins", 
+            "Ansible", "Puppet", "UiPath", "Others"
+        ],
+        "next": {"*": "q12"}
+    },
+    "q9": {
+        "text": "Which CI/CD tools are you using?",
+        "type": "multiple_choice",
+        "options": ["Jenkins", "GitLab CI", "GitHub Actions", "Others"],
+        "next": {"*": "q8"}
+    },
+    "q12": {
+        "text": "What is the size of your organization?",
+        "type": "single_choice",
+        "options": [
+            "Solo/Personal Use",
+            "Small Business (1-50 employees)",
+            "Medium Business (51-250 employees)",
+            "Large Business (250+ employees)",
+            "MSP or Automation Provider"
+        ],
+        "next": {"*": "q13"}
+    },
+    "q13": {
+        "text": "What is the purpose of your automation?",
+        "type": "multiple_choice",
+        "options": [
+            "Internal operations only",
+            "Client service delivery",
+            "Compliance requirements",
+            "Productivity improvement",
+            "Other"
+        ],
+        "next": {"*": "q14"}
+    },
+    "q14": {
+        "text": "Is your current automation platform expected to be used for future workflows?",
+        "type": "single_choice",
+        "options": ["Yes", "No", "Partially"],
+        "next": {"*": "q15"}
+    },
+    "q15": {
+        "text": "Will future automation needs be driven by internal or external (client) requirements?",
+        "type": "single_choice",
+        "options": ["Internal", "Client-based", "Both"],
+        "next": {"*": "q16"}
+    },
+    "q16": {
+        "text": "Are you planning to migrate from any existing automation tools to new platforms?",
+        "type": "single_choice",
+        "options": ["Yes", "No", "Not Sure"],
+        "next": {"*": "q4"}
+    },
+    "q4": {
+        "text": "What is your primary goal for automation?",
+        "type": "single_choice",
+        "options": ["Reduce manual effort", "Improve reliability", "Increase speed", "Cost savings"],
+        "next": {"*": "q17"}
+    },
+    "q17": {
+        "text": "Do you have a dedicated budget for automation tools and services?",
+        "type": "single_choice",
+        "options": ["Yes", "No", "Not sure"],
+        "next": {"*": "q18"}
+    },
+    "q18": {
+        "text": "Which type of integrations are most important for your workflows?",
+        "type": "multiple_choice",
+        "options": ["APIs", "Webhooks", "Native connectors", "Custom scripts", "Other"],
+        "next": {"*": "q19"}
+    },
+    "q19": {
+        "text": "Are there specific security or compliance standards your automation must meet?",
+        "type": "multiple_choice",
+        "options": ["GDPR", "HIPAA", "SOC 2", "None", "Other"],
+        "next": {"*": "q20"}
+    },
+    "q20": {
+        "text": "What is your team's experience level with automation tools?",
+        "type": "single_choice",
+        "options": ["Beginner", "Intermediate", "Advanced"],
+        "next": {"*": "q21"}
+    },
+    "q21": {
+        "text": "Where do you prefer to host your automation solutions?",
+        "type": "single_choice",
+        "options": ["Cloud (SaaS)", "On-premises", "Hybrid", "No preference"],
+        "next": {"*": "q22"}
+    },
+    "q22": {
+        "text": "Do you require real-time monitoring or alerting for your automation workflows?",
+        "type": "single_choice",
+        "options": ["Yes", "No", "Not sure"],
+        "next": {"*": "q23"}
+    },
+    "q23": {
+        "text": "How do you manage changes to your automation workflows?",
+        "type": "single_choice",
+        "options": ["Manual updates", "Version control (e.g., Git)", "Automated deployment", "Not managed"],
+        "next": {"*": "end"}
+    },
+    "end": {}
+}

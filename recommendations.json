@@ -1,0 +1,91 @@
+{
+  "q1": {
+    "yes": [
+      "Based on your current automation usage, here are some tailored suggestions:",
+      {"q8": {"contains": "Rewst"}, "recommendation": "Use Rewst to expand cross-organization onboarding/offboarding workflows."},
+      {"q8": {"contains": "Jenkins"}, "recommendation": "Leverage Jenkins with GitOps for consistent CI/CD operations."},
+      {"q8": {"contains": "Power Automate"}, "recommendation": "Utilize AI Builder in Power Automate for intelligent flows."},
+      {"q8": {"contains": "Ansible"}, "recommendation": "Centralize automation using Ansible Tower or AWX."},
+      {"q8": {"contains": "UiPath"}, "recommendation": "Implement unattended automation using UiPath for enterprise back office."}
+    ]
+  },
+  "q3": {
+    "yes": [
+      "To initiate automation, consider the following tools and best practices:",
+      {"q5": "Microsoft 365", "recommendation": "Start with Power Automate for Microsoft 365 integration."},
+      {"q5": "Google Workspace", "recommendation": "Use Google Apps Script or n8n for lightweight automation."},
+      {"q7": "Microsoft Intune", "recommendation": "Automate compliance tasks using Intune's policies."},
+      {"q7": "Datto", "recommendation": "Explore device compliance automation with Datto."},
+      {"q7": "Atera", "recommendation": "Explore device compliance automation with Atera."},
+      {"q7": "Others", "recommendation": "Explore device compliance automation with your chosen solution."}
+    ]
+  },
+  "q12": {
+    "MSP or Automation Provider": ["Consider multi-tenant orchestration and client-facing automation delivery models."],
+    "Solo/Personal Use": ["Use cost-effective tools like Zapier or n8n for lightweight workflows."],
+    "Small Business (1-50 employees)": ["Focus on scalable and manageable solutions such as Rewst or Power Automate."],
+    "Medium Business (51-250 employees)": ["Focus on scalable and manageable solutions such as Rewst or Power Automate."],
+    "Large Business (250+ employees)": ["Implement enterprise-grade orchestration and governance layers."]
+  },
+  "q14": {
+    "No": ["Since you're not continuing with your current platform, begin evaluating migration-ready platforms."],
+    "Partially": ["Plan hybrid automation architecture to reuse parts of the current stack."]
+  },
+  "q15": {
+    "Client-based": ["Ensure automation tools support reusable templates and APIs to accommodate client customization."],
+    "Both": ["Ensure automation tools support reusable templates and APIs to accommodate client customization."]
+  },
+  "q16": {
+    "Yes": [
+      "Conduct a migration assessment to evaluate feature gaps and export/import capabilities.",
+      "Begin transition planning with phased automation cutover."
+    ]
+  },
+  "q4": {
+    "Reduce manual effort": ["Automate repetitive user workflows with RPA or integration platforms."],
+    "Improve reliability": ["Implement robust monitoring and self-healing routines."],
+    "Increase speed": ["Emphasize asynchronous processing and automation chaining."],
+    "Cost savings": ["Consolidate automation platforms and eliminate redundant tools."]
+  },
+  "q17": {
+    "Yes": ["Consider premium automation platforms with advanced features."],
+    "No": ["Focus on open-source or low-cost automation tools."],
+    "Not sure": ["Assess potential ROI before committing to automation spending."]
+  },
+  "q18": {
+    "APIs": ["Prioritize tools with robust API support for maximum flexibility."],
+    "Webhooks": ["Choose platforms that offer real-time webhook integrations."],
+    "Native connectors": ["Leverage platforms with built-in connectors for rapid deployment."],
+    "Custom scripts": ["Ensure your platform supports custom scripting and extensibility."],
+    "Other": ["Evaluate integration needs to select the right platform."]
+  },
+  "q19": {
+    "GDPR": ["Select automation tools with strong data privacy and GDPR compliance."],
+    "HIPAA": ["Ensure automation solutions are HIPAA-compliant for healthcare data."],
+    "SOC 2": ["Choose vendors with SOC 2 certification for security assurance."],
+    "None": ["Standard security practices are sufficient for your use case."],
+    "Other": ["Review your specific compliance requirements with vendors."]
+  },
+  "q20": {
+    "Beginner": ["Start with user-friendly, low-code automation platforms."],
+    "Intermediate": ["Explore platforms that balance ease of use and customization."],
+    "Advanced": ["Consider advanced platforms with scripting and API capabilities."]
+  },
+  "q21": {
+    "Cloud (SaaS)": ["Opt for SaaS automation tools for easy scalability and maintenance."],
+    "On-premises": ["Select on-premises solutions for greater control and compliance."],
+    "Hybrid": ["Consider hybrid platforms to balance flexibility and control."],
+    "No preference": ["Choose based on other priorities like cost and features."]
+  },
+  "q22": {
+    "Yes": ["Implement monitoring and alerting to ensure automation reliability."],
+    "No": ["Manual checks may suffice for low-risk workflows."],
+    "Not sure": ["Evaluate the impact of automation failures to decide on monitoring needs."]
+  },
+  "q23": {
+    "Manual updates": ["Document manual changes to maintain workflow integrity."],
+    "Version control (e.g., Git)": ["Use version control for safe, auditable automation changes."],
+    "Automated deployment": ["Automate deployment for consistent and reliable updates."],
+    "Not managed": ["Establish a change management process to reduce risk."]
+  }
+}
