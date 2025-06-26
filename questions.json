@@ -1,4 +1,10 @@
 {
+    "q0": {
+        "question": "What is your company name?",
+        "type": "test",
+        "option":[],
+        "next" {"*": "q1"}
+    },
     "q1": {
         "question": "Please enter your email address:",
         "type": "text",
