@@ -159,5 +159,10 @@
         "options": ["1. Manual updates", "2. Version control (e.g., Git)", "3. Automated deployment", "4. Not managed"],
         "next": {"*": "end"}
     },
-    "end": {}
+    "end": {
+      "text": "Thank you for completing the Automation Assessment. We'll use your responses to provide recommendations.",
+      "type": "info",
+      "options": [],
+      "next": {}
+    }
 }
