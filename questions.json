@@ -1,7 +1,7 @@
 {
     "q0": {
         "question": "What is your company name?",
-        "type": "test",
+        "type": "text",
         "option":[],
         "next": {"*": "q1"}
     },
