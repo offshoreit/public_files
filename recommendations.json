@@ -1,91 +1,124 @@
 {
-  "q1": {
-    "yes": [
-      "Based on your current automation usage, here are some tailored suggestions:",
-      {"q8": {"contains": "Rewst"}, "recommendation": "Use Rewst to expand cross-organization onboarding/offboarding workflows."},
-      {"q8": {"contains": "Jenkins"}, "recommendation": "Leverage Jenkins with GitOps for consistent CI/CD operations."},
-      {"q8": {"contains": "Power Automate"}, "recommendation": "Utilize AI Builder in Power Automate for intelligent flows."},
-      {"q8": {"contains": "Ansible"}, "recommendation": "Centralize automation using Ansible Tower or AWX."},
-      {"q8": {"contains": "UiPath"}, "recommendation": "Implement unattended automation using UiPath for enterprise back office."}
-    ]
-  },
   "q3": {
-    "yes": [
-      "To initiate automation, consider the following tools and best practices:",
-      {"q5": "Microsoft 365", "recommendation": "Start with Power Automate for Microsoft 365 integration."},
-      {"q5": "Google Workspace", "recommendation": "Use Google Apps Script or n8n for lightweight automation."},
-      {"q7": "Microsoft Intune", "recommendation": "Automate compliance tasks using Intune's policies."},
-      {"q7": "Datto", "recommendation": "Explore device compliance automation with Datto."},
-      {"q7": "Atera", "recommendation": "Explore device compliance automation with Atera."},
-      {"q7": "Others", "recommendation": "Explore device compliance automation with your chosen solution."}
-    ]
+    "Workflow Automation": ["Continue building streamlined workflows to reduce repetitive manual tasks."],
+    "Monitoring/Alerting": ["Implement proactive monitoring and alerts for critical systems."],
+    "CI/CD": ["Leverage modern CI/CD platforms for faster and reliable deployments."],
+    "Infrastructure as Code": ["Use IaC tools for consistent and scalable infrastructure management."],
+    "Cloud Automation": ["Adopt cloud automation to optimize resource allocation and costs."],
+    "Device Management": ["Integrate device management with security policies for compliance."],
+    "RPA": ["Deploy RPA bots to handle high-volume, rules-based processes."],
+    "Scripting": ["Utilize scripting for custom automation solutions where needed."],
+    "Others": ["Explore niche automation tools that fit your specific requirements."]
   },
-  "q12": {
-    "MSP or Automation Provider": ["Consider multi-tenant orchestration and client-facing automation delivery models."],
-    "Solo/Personal Use": ["Use cost-effective tools like Zapier or n8n for lightweight workflows."],
-    "Small Business (1-50 employees)": ["Focus on scalable and manageable solutions such as Rewst or Power Automate."],
-    "Medium Business (51-250 employees)": ["Focus on scalable and manageable solutions such as Rewst or Power Automate."],
-    "Large Business (250+ employees)": ["Implement enterprise-grade orchestration and governance layers."]
-  },
-  "q14": {
-    "No": ["Since you're not continuing with your current platform, begin evaluating migration-ready platforms."],
-    "Partially": ["Plan hybrid automation architecture to reuse parts of the current stack."]
-  },
-  "q15": {
-    "Client-based": ["Ensure automation tools support reusable templates and APIs to accommodate client customization."],
-    "Both": ["Ensure automation tools support reusable templates and APIs to accommodate client customization."]
-  },
-  "q16": {
-    "Yes": [
-      "Conduct a migration assessment to evaluate feature gaps and export/import capabilities.",
-      "Begin transition planning with phased automation cutover."
-    ]
-  },
-  "q4": {
+  "q5": {
     "Reduce manual effort": ["Automate repetitive user workflows with RPA or integration platforms."],
     "Improve reliability": ["Implement robust monitoring and self-healing routines."],
     "Increase speed": ["Emphasize asynchronous processing and automation chaining."],
     "Cost savings": ["Consolidate automation platforms and eliminate redundant tools."]
   },
-  "q17": {
-    "Yes": ["Consider premium automation platforms with advanced features."],
-    "No": ["Focus on open-source or low-cost automation tools."],
-    "Not sure": ["Assess potential ROI before committing to automation spending."]
+  "q6": {
+    "Microsoft 365": ["Start with Power Automate for Microsoft 365 integration and security automations."],
+    "Google Workspace": ["Use Google Apps Script or n8n for lightweight automation across Workspace apps."],
+    "Others": ["Explore integration platforms like n8n for flexible automation across various tools."]
   },
-  "q18": {
+  "q7": {
+    "yes": ["Ensure your device management platform integrates well with security and compliance requirements."],
+    "no": ["Evaluate device management if your organization plans to scale device fleets in future."]
+  },
+  "q8": {
+    "Microsoft Intune": ["Automate compliance tasks using Intune's policies and reporting capabilities."],
+    "Datto": ["Explore Datto’s APIs for device compliance and automated alerts."],
+    "Atera": ["Explore Atera's scripting capabilities for proactive device management."],
+    "Others": ["Investigate automation options offered by your chosen device management solution."]
+  },
+  "q9": {
+    "Rewst": ["Use Rewst to expand cross-organization onboarding/offboarding workflows."],
+    "n8n": ["Leverage n8n’s workflow editor for custom low-code automation."],
+    "Zapier": ["Use Zapier for quick integrations between popular SaaS apps."],
+    "Power Automate": ["Utilize AI Builder in Power Automate for intelligent flows."],
+    "Jenkins": ["Leverage Jenkins with GitOps for consistent CI/CD operations."],
+    "Ansible": ["Centralize automation using Ansible Tower or AWX."],
+    "Puppet": ["Implement infrastructure-as-code practices with Puppet for configuration management."],
+    "UiPath": ["Implement unattended automation using UiPath for enterprise back office."],
+    "Others": ["Investigate additional tools tailored to your unique workflows."]
+  },
+  "q10": {
+    "Jenkins": ["Use Jenkins pipelines for scalable CI/CD processes."],
+    "GitLab CI": ["Consider GitLab CI for integrated version control and pipelines."],
+    "GitHub Actions": ["Utilize GitHub Actions for streamlined CI/CD integrated directly with your repositories."],
+    "Others": ["Explore alternative CI/CD tools that fit your team’s stack and experience."]
+  },
+  "q11": {
+    "Solo/Personal Use": ["Use cost-effective tools like Zapier or n8n for lightweight workflows."],
+    "Small Business (1-50 employees)": ["Focus on scalable and manageable solutions such as Rewst or Power Automate."],
+    "Medium Business (51-250 employees)": ["Consider mid-tier solutions with strong integration capabilities and cost management."],
+    "Large Business (250+ employees)": ["Implement enterprise-grade orchestration and governance layers."],
+    "MSP or Automation Provider": ["Consider multi-tenant orchestration and client-facing automation delivery models."]
+  },
+  "q12": {
+    "Internal operations only": ["Streamline internal processes to boost efficiency and lower costs."],
+    "Client service delivery": ["Design reusable automation templates for consistent client services."],
+    "Compliance requirements": ["Prioritize automation platforms with robust compliance features."],
+    "Productivity improvement": ["Automate workflows to eliminate bottlenecks and reduce task switching."],
+    "Other": ["Evaluate your specific goals to align tools and processes accordingly."]
+  },
+  "q13": {
+    "Yes": ["Continue optimizing and expanding your current platform for new use cases."],
+    "No": ["Consider new tools that align with modern architectures and integrations."],
+    "Partially": ["Plan hybrid architectures to reuse parts of your current stack while adopting new solutions."]
+  },
+  "q14": {
+    "Internal": ["Focus on tools that improve internal workflows and operational efficiency."],
+    "Client-based": ["Ensure automation tools support reusable templates and APIs for client customization."],
+    "Both": ["Ensure automation tools support reusable templates and APIs for both internal and client-facing operations."]
+  },
+  "q15": {
+    "Yes": ["Conduct a migration assessment to evaluate feature gaps and export/import capabilities.", "Begin transition planning with phased automation cutover."],
+    "No": ["Continue optimizing current systems but stay updated on market changes."],
+    "Not Sure": ["Explore benefits and costs of migration with a proof of concept."]
+  },
+  "q16": {
+    "Yes": ["Consider enterprise-grade solutions with premium features."],
+    "No": ["Focus on cost-effective, open-source tools like n8n or Rewst."],
+    "Not sure": ["Assess potential ROI before committing to significant automation investments."]
+  },
+  "q17": {
     "APIs": ["Prioritize tools with robust API support for maximum flexibility."],
     "Webhooks": ["Choose platforms that offer real-time webhook integrations."],
     "Native connectors": ["Leverage platforms with built-in connectors for rapid deployment."],
     "Custom scripts": ["Ensure your platform supports custom scripting and extensibility."],
     "Other": ["Evaluate integration needs to select the right platform."]
   },
-  "q19": {
+  "q18": {
     "GDPR": ["Select automation tools with strong data privacy and GDPR compliance."],
     "HIPAA": ["Ensure automation solutions are HIPAA-compliant for healthcare data."],
     "SOC 2": ["Choose vendors with SOC 2 certification for security assurance."],
     "None": ["Standard security practices are sufficient for your use case."],
     "Other": ["Review your specific compliance requirements with vendors."]
   },
-  "q20": {
+  "q19": {
     "Beginner": ["Start with user-friendly, low-code automation platforms."],
     "Intermediate": ["Explore platforms that balance ease of use and customization."],
-    "Advanced": ["Consider advanced platforms with scripting and API capabilities."]
+    "Advanced": ["Consider advanced platforms with scripting, APIs, and enterprise integrations."]
   },
-  "q21": {
+  "q20": {
     "Cloud (SaaS)": ["Opt for SaaS automation tools for easy scalability and maintenance."],
     "On-premises": ["Select on-premises solutions for greater control and compliance."],
     "Hybrid": ["Consider hybrid platforms to balance flexibility and control."],
-    "No preference": ["Choose based on other priorities like cost and features."]
+    "No preference": ["Choose based on other priorities like cost, governance, and technical fit."]
+  },
+  "q21": {
+    "Yes": ["Implement monitoring and alerting to ensure automation reliability and minimize downtime."],
+    "No": ["Manual checks may suffice for low-risk, low-volume workflows."],
+    "Not sure": ["Evaluate the business impact of automation failures to decide on monitoring investments."]
   },
   "q22": {
-    "Yes": ["Implement monitoring and alerting to ensure automation reliability."],
-    "No": ["Manual checks may suffice for low-risk workflows."],
-    "Not sure": ["Evaluate the impact of automation failures to decide on monitoring needs."]
+    "Manual updates": ["Document manual changes thoroughly to maintain workflow integrity and auditability."],
+    "Version control (e.g., Git)": ["Use version control for safe, auditable changes and easy rollbacks."],
+    "Automated deployment": ["Automate deployments to ensure consistent and reliable updates."],
+    "Not managed": ["Establish a change management process to reduce operational risks."]
   },
-  "q23": {
-    "Manual updates": ["Document manual changes to maintain workflow integrity."],
-    "Version control (e.g., Git)": ["Use version control for safe, auditable automation changes."],
-    "Automated deployment": ["Automate deployment for consistent and reliable updates."],
-    "Not managed": ["Establish a change management process to reduce risk."]
+  "end": {
+    "message": "Thank you for completing the Automation Assessment. We'll use your responses to provide tailored recommendations."
   }
 }
