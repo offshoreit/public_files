@@ -7,7 +7,7 @@
     },
     "q1": {
         "question": "Please enter your email address:",
-        "type": "text",
+        "type": "email",
         "options": [],
         "next": {"*": "q2"}
     },
